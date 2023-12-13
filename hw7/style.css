@@ -1,0 +1,316 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(./img/fon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header-conteiner {
+    width: 1208px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin: 0 auto;
+}
+
+.logo {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.logo,
+.user-link {
+    transition: color 0.5s;
+    text-decoration: none;
+}
+
+.user-link:hover,
+.logo:hover {
+    color: #3cb878;
+}
+
+.color-fill {
+    transition: fill 0.5s;
+}
+
+.header-nav-link:hover .color-fill {
+    fill: #3cb878;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    gap: 27px;
+    height: 24px;
+    padding-left: 0;
+}
+
+.nav-info::before {
+    content: '';
+    height: 19px;
+    border-left: 1px solid rgba(255, 255, 255, 0.9);
+    opacity: 50%;
+}
+
+.nav-info {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    padding-left: 24px;
+    color: #fff;
+    line-height: 14px;
+}
+
+.user-link {
+    color: #fff;
+}
+
+.main {
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-wrap {
+    background: #fff;
+    padding: 31px 60px 38px 60px;
+    box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.52);
+    width: 444px;
+    position: relative;
+}
+
+.main-auth-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+.title-form {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #434343;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.title-form::before {
+    display: block;
+    content: '';
+    background-color: #3cb878;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 32px;
+    left: 0;
+}
+
+.link-form {
+    justify-self: end;
+    color: #3cb878;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    transition: 0, 5s;
+}
+
+.link-form:hover {
+    text-decoration-color: #01813f;
+}
+
+.btn-style {
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    border: none;
+    padding: 12px 0 12px 12px;
+    border-radius: 4px;
+}
+
+.btn-facebook {
+    background-color: #305db8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 13px;
+}
+
+.btn-facebook:hover {
+    background-color: #022263;
+}
+
+.btn-google {
+    background-color: #df4a32;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7px;
+}
+
+.btn-google:hover {
+    background-color: #ab1f09;
+}
+
+.btn-facebook,
+.btn-google,
+.bnt-submit {
+    transition: background-color 0, 5s;
+}
+
+.facebook-styling {
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    gap: 18px;
+}
+
+.facebook-styling::before {
+    content: '';
+    height: 28px;
+    border-left: 1px solid #0a162f;
+    opacity: 0.1;
+}
+
+.google-styling {
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    gap: 30px;
+}
+
+.google-styling::before {
+    content: '';
+    height: 28px;
+    border-left: 1px solid #2b0d09;
+    opacity: 0.1;
+}
+
+.forum-description {
+    position: relative;
+    margin-top: 32px;
+    color: #848484;
+    font-size: 14px;
+    height: min-content;
+    display: grid;
+    place-items: center;
+}
+
+.forum-description::after,
+.forum-description::before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 153px;
+    border-bottom: 1px solid #f2f2f2;
+    top: 9px;
+}
+
+.forum-description::before {
+    left: 0px;
+}
+
+.forum-description::after {
+    right: 0px;
+}
+
+.signup-info {
+    border: 1px solid #f2f2f2;
+    width: 100%;
+    margin-top: 7px;
+    background-color: #fff;
+    border-radius: 4px;
+    color: #434343;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 16px 20px;
+}
+
+.signup-info:focus {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
+    outline: none;
+}
+
+.text-checkbox {
+    margin-top: 12px;
+    display: block;
+    color: #434343;
+    font-family: Ubuntu;
+    font-size: 14px;
+    line-height: 14px;
+    padding-left: 28px;
+}
+
+.btn-submit-form {
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 4px;
+    background-color: rgba(60, 184, 120, 0.8);
+    color: #fff;
+    font-family: Ubuntu;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 16px 0;
+}
+
+.btn-submit-form:hover {
+    background-color: #01813f;
+}
+
+.checkbox-conteiner {
+    position: relative;
+}
+
+.input-checkbox {
+    appearance: none;
+    position: absolute;
+}
+
+.text-checkbox::before {
+    display: block;
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 1px solid #f2f2f2;
+    background-color: rgba(247, 8, 8, 0);
+    position: absolute;
+    top: -4px;
+    left: 0;
+}
+
+.text-checkbox::after {
+    display: block;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/vector\ 1.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -3px;
+    left: 2px;
+}
+
+.registration-info::placeholder {
+    color: #bebebe;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+}

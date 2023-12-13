@@ -8,14 +8,14 @@ body {
 }
 
 .container {
-    max-width: 1440px;
-    margin: auto;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .main-menu {
     border-bottom: 2px solid darkgray;
     padding: 10px;
-
+    display: flex;
 }
 
 
@@ -32,11 +32,10 @@ body {
 
 .main-ul {
     list-style-type: none;
-    padding-bottom: -70px;
     padding-bottom: 10px;
-    margin-top: -20px;
-    display: block;
+    display: flex;
     padding-left: 281px;
+    column-gap: 40px;
 
 }
 
@@ -124,14 +123,14 @@ body {
 }
 
 .Grid {
-    padding-left: 60px;
+
     margin-top: 40px;
     display: grid;
-    grid-template-columns: 70px 70px 70px 70px;
-    width: 1440px*3;
-    height: 510px*3;
-    gap: 20px 230px;
-    align-content: space-between;
+    grid-template-columns: 70px 70px 70px;
+    
+    column-gap: 20px;
+    row-gap: 48px;
+    justify-content: space-evenly;
 }
 
 .Grid img {
@@ -240,8 +239,8 @@ body {
 }
 
 .footer {
-    width: 1440px;
-    height: 380px;
+    width: 1280px;
+
     background-color: #2A254B;
 
 }
