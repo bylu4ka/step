@@ -3,7 +3,7 @@ body {
     height: 100%;
     margin: 0 auto;
     align-items: center;
-    font-family: Cabin;
+    font-family: Cabin, sans-serif;
 }
 
 header {
@@ -29,6 +29,8 @@ header {
 .logo {
     display: flex;
     align-items: baseline;
+    align-items: center;
+    padding-left: 52px;
 }
 
 .logo-book {
@@ -40,13 +42,12 @@ header {
     color: #F8FDFE;
     text-decoration: none;
     font-size: 24px;
-    padding-top: 16px;
-    padding-left: 4px;
 }
 
 .img-logo {
-    margin: 17px 0;
-    padding-left: 52px;
+    padding-right: 4px;
+    margin: 22px 0px 22px 0px;
+
 }
 
 .cart-total {
