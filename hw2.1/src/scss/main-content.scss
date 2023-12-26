@@ -1,0 +1,156 @@
+.main-content {
+    margin-top: 28px;
+    background-color: #EEEEEF;
+    padding-bottom: 120px;
+    width: 1400px;
+    padding: 0px 52px;
+    box-sizing: border-box;
+}
+
+.title__main {
+    margin-top: 40px;
+    padding-top: 64px;
+    font-size: 32px;
+    padding-left: 52px;
+}
+
+.title__main::after {
+    content: "";
+    display: block;
+    width: 1296px;
+    border-bottom: 1px solid #A8A8A8;
+    margin-top: 23px;
+    margin-bottom: 24px;
+}
+
+.main-list {
+    justify-content: center;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 23px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.img-book__links {
+    display: block;
+    margin: 0 auto;
+}
+
+.main__list__main-item {
+    box-sizing: border-box;
+    padding: 32px;
+    border: 1px solid #8E8E8E;
+    width: 306px;
+    background-color: #F8FDFE;
+    position: relative;
+}
+
+.title-book {
+    margin: 0;
+}
+
+.main-link {
+    text-decoration: none;
+    color: #1F1F1F;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 242px;
+    display: block;
+    position: relative;
+}
+
+.main-link::after {
+    content: "";
+    display: block;
+    width: 241px;
+    border-bottom: 1px solid #A8A8A8;
+}
+
+.author {
+    color: #8E8E8E;
+    font-size: 16px;
+    margin: 0;
+}
+
+.price {
+    color: #E90000;
+    font-size: 24px;
+    font-weight: 500;
+    border-top: 8px;
+    display: inline;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #8E8E8E;
+    font-size: 24px;
+    margin-left: 24px;
+}
+
+.purchase {
+    color: #F8FDFE;
+    font-size: 16px;
+    padding: 8px 24px;
+    display: block;
+    margin: 16px auto;
+    border-radius: 4px;
+}
+
+.in-stock {
+    background-color: #4C394E;
+}
+
+.end-up {
+    background-color: #4D762D;
+    padding: 8px 55px;
+}
+
+.hit {
+    background-color: #4200FF;
+    color: #F8FDFE;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 4px 8px;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    gap: 10px;
+}
+
+.new {
+    background-color: #AF39E7;
+    color: #F8FDFE;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 4px 8px;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    gap: 10px;
+}
+
+
+.super-price {
+    background-color: #EA33C0;
+    color: #F8FDFE;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 4px 8px;
+    position: absolute;
+    top: 32px;
+    left: 72px;
+    gap: 10px;
+}
+
+.action-20 {
+    top: 32px;
+    left: 32px;
+}
+
+.action {
+    left: 85px;
+}

@@ -1,0 +1,15 @@
+.chat__button {
+    position: fixed;
+    bottom: 50%;
+    right: 28px;
+    background-color: #10BBD5;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1000;
+}

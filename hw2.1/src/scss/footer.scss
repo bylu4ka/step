@@ -1,0 +1,31 @@
+.copyright {
+    color: #F8FDFE;
+    font-size: 16px;
+    margin-left: 52px;
+    margin-top: 32px;
+}
+
+.copyright::before {
+    content: "\00A9";
+    color: #F8FDFE;
+    font-size: 16px;
+}
+
+
+.footer__content {
+    background-color: #4C394E;
+    width: 100%;
+    margin-top: 0px;
+    height: 88px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+}
+
+.rights {
+    color: #F8FDFE;
+    font-size: 16px;
+    margin: 0;
+    margin-right: 52px;
+}
