@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+.graphics-design {
+    background: #202020;
+}
+
+.content__graphics-design {
+    padding: 82px 190px 138px 195px;
+}
+
+.content__graphics-design__title {
+    color: #FFF;
+    font-family: DynaPuff;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 38px;
+}
+
+.content__graphics-design__foto {
+    gap: 26px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content__graphics-design__foto1 {
+    position: relative;
+}
+
+.content__graphics-design__foto1::before {
+    content: '';
+    background-image: url(../images/SoftStar.png);
+    width: 268px;
+    height: 268px;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content__graphics-design__foto__under {
+    display: flex;
+    gap: 24px;
+}
+
+.content__graphics-design__foto2 {
+    position: relative;
+}
+
+.content__graphics-design__foto2::before {
+    content: '';
+    background-image: url(../images/Butterfly.png);
+    width: 187px;
+    height: 191.493px;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content__graphics-design__foto3 {
+    position: relative;
+}
+
+.content__graphics-design__foto3::before {
+    content: '';
+    background-image: url(../images/Asterisk1.png);
+    width: 233px;
+    height: 225px;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.foto-design1-medium {
+    display: none;
+}
+
+.foto-design2-medium {
+    display: none;
+}
+
+.foto-design3-medium {
+    display: none;
+}
+
+.foto-design1-small {
+    display: none;
+}

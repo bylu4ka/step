@@ -1,0 +1,69 @@
+.meet {
+    width: auto;
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+}
+
+.meet__text {
+    display: flex;
+    gap: 40px;
+    padding: 101px 0px 102px 191px;
+    flex-direction: column;
+}
+
+.meet__text__title {
+    color: #FAEB49;
+    font-family: DynaPuff;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.meet__text__desckription {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.meet__background__foto {
+    background-image: url(../images/Group\ 3.png);
+    width: 551.582px;
+    height: 552.039px;
+    background-repeat: no-repeat;
+    left: auto;
+}
+
+.meet__amount__text {
+    display: flex;
+    gap: 96px;
+}
+
+.meet__amount__li {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.meet__amount__p__number {
+    color: #FFF;
+    font-family: DynaPuff;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.meet__amount__p__name {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+

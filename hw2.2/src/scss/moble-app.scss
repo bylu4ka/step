@@ -1,0 +1,91 @@
+.mobile-app {
+    background: #3C3C3C;
+}
+
+.mobile-app__position {
+    padding: 86px 195px 86px;
+}
+
+.mobile-app__projekt {
+    display: flex;
+}
+
+.mobile-app__projekt-link {
+    padding: 24px 20px;
+    text-decoration: none;
+    background: #FFFEF2;
+    border-radius: 24px;
+    margin-bottom: 63px;
+}
+
+.mobile-app__foto-projekt {
+    padding-bottom: 20px;
+}
+
+.mobile-app__foto-projekt-medium {
+    display: none;
+}
+
+.mobile-app__projekt-link__title {
+    color: #565656;
+    font-family: DynaPuff;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.mobile-app__projekt-link__deskription {
+    color: #000;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.mobile-apps__projekt-link__list {
+    display: flex;
+}
+
+.projekt-link__item {
+    text-decoration: none;
+}
+
+.projekt-link__list {
+    display: flex;
+    border-radius: 24px;
+    gap: 40px;
+
+}
+
+.projekt-link__elements {
+    background: #FFFEF2;
+    padding: 20px;
+    border-radius: 24px;
+}
+
+.project-link__item__title {
+    color: #565656;
+    font-family: DynaPuff;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 20px;
+    padding-bottom: 22px;
+}
+
+.project-link__item__deskription {
+    color: #000;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 285px;
+}
+
+.mobile-app__foto-projekt-small {
+    display: none
+}
