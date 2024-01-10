@@ -30,9 +30,9 @@ console.log(5 === "5");  // false а це строге порівняння як
 
 // 2. завдання
 
-// let x = 5;
-// let y = 3;
-// alert(`"x = 5 , y = 3 . x + y = " ${ x + y}`);
-// alert(`"x = 5 , y = 3 . x - y = " ${ x - y}`);
-// alert(`"x = 5 , y = 3 . x * y = " ${ x * y}`);
-// alert(`"x = 5 , y = 3 . x / y = " ${ x / y}`);
+let x = 5;
+let y = 3;
+alert(`x = 5 , y = 3 . x + y = ${ x + y}`);
+alert(`x = 5 , y = 3 . x - y = ${ x - y}`);
+alert(`x = 5 , y = 3 . x * y = ${ x * y}`);
+alert(`x = 5 , y = 3 . x / y = ${ x / y}`);
